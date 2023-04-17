@@ -1,0 +1,94 @@
+html {
+    text-align:center;
+    font-size:16px;
+    font-family: 'Liberation Sans', Verdana;
+    background-color: black;
+    color: #b3b3b3;
+    }
+
+.whole {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    font-size:0.9em;
+    line-height:1.5em;
+    }
+
+@media only screen and (min-width: 1024px) {
+   .whole {
+      width:980px;
+    }
+}
+
+div {
+    position:relative;
+   }
+
+div.title {
+  width:100%;
+  font-size: 2em;
+  font-family: sans-serif;
+  line-height:3em;
+}
+
+div.menu {
+  width:100%;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+div.menu li {
+  display: inline-block;
+  margin-right: 1.25em;
+  font-size: 1em;
+  font-style: bold;
+}
+
+div.menu li a:link {
+  color: #b3b3b3;
+}
+
+div.menu li a:visited {
+  color: #b3b3b3;
+}
+
+div.menu li a:hover {
+  color: #b3b3b3;
+}
+
+div.menu li a:active {
+  color: lightgrey;
+}
+
+div.page {
+  width:100%;
+}
+
+p {
+  text-align: justify;
+}
+
+p.image-note {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  line-height: 1em;
+  margin-bottom: 2em;
+}
+
+/*Attributes of Pictures*/
+
+img {
+   border:none;
+   max-width: 100%;
+   }
+
+img.resized {
+   max-width: 100%;
+   }
+
+@media only screen and (min-width: 1024px) {
+   img.resized {
+      width: 860px;
+   }
+}
